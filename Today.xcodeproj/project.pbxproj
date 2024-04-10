@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E2228BF2BC6D1B30086FF8F /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2228BE2BC6D1B30086FF8F /* ReminderViewController.swift */; };
+		4E2228C22BC6D43B0086FF8F /* ReminderViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2228C12BC6D43B0086FF8F /* ReminderViewController+Row.swift */; };
 		4E5AF2052BC576EF00F21899 /* ReminderDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5AF2042BC576EF00F21899 /* ReminderDoneButton.swift */; };
 		4E5AF2072BC577CC00F21899 /* ReminderListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5AF2062BC577CC00F21899 /* ReminderListViewController+Actions.swift */; };
 		4E9D3F9F2BC466ED00DAEF45 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D3F9E2BC466ED00DAEF45 /* ReminderListViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E2228BE2BC6D1B30086FF8F /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		4E2228C12BC6D43B0086FF8F /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
 		4E5AF2042BC576EF00F21899 /* ReminderDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDoneButton.swift; sourceTree = "<group>"; };
 		4E5AF2062BC577CC00F21899 /* ReminderListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Actions.swift"; sourceTree = "<group>"; };
 		4E9D3F9E2BC466ED00DAEF45 /* ReminderListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderListViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E2228C02BC6D4100086FF8F /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4E2228BE2BC6D1B30086FF8F /* ReminderViewController.swift */,
+				4E2228C12BC6D43B0086FF8F /* ReminderViewController+Row.swift */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
 		4E9D3F9D2BC466B400DAEF45 /* ListViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +95,7 @@
 				AAD059C228ECBFAA004F4962 /* Models */,
 				AAD0598728EC8D10004F4962 /* AppDelegate.swift */,
 				AAD0598928EC8D10004F4962 /* SceneDelegate.swift */,
+				4E2228C02BC6D4100086FF8F /* DetailViewController */,
 				4E9D3F9D2BC466B400DAEF45 /* ListViewController */,
 				AAD0598D28EC8D10004F4962 /* Main.storyboard */,
 				AAD0599028EC8D12004F4962 /* Assets.xcassets */,
@@ -129,7 +143,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					AAD0598328EC8D10004F4962 = {
 						CreatedOnToolsVersion = 14.1;
@@ -174,8 +188,10 @@
 			files = (
 				AAD0598828EC8D10004F4962 /* AppDelegate.swift in Sources */,
 				4E5AF2072BC577CC00F21899 /* ReminderListViewController+Actions.swift in Sources */,
+				4E2228BF2BC6D1B30086FF8F /* ReminderViewController.swift in Sources */,
 				AAD059CB28ECD992004F4962 /* UIColor+Today.swift in Sources */,
 				AAD0598A28EC8D10004F4962 /* SceneDelegate.swift in Sources */,
+				4E2228C22BC6D43B0086FF8F /* ReminderViewController+Row.swift in Sources */,
 				4E5AF2052BC576EF00F21899 /* ReminderDoneButton.swift in Sources */,
 				4E9D3F9F2BC466ED00DAEF45 /* ReminderListViewController.swift in Sources */,
 				AAD059C428ECC017004F4962 /* Reminder.swift in Sources */,
@@ -242,6 +258,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -302,6 +319,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
