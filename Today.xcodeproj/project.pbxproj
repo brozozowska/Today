@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4E2228BF2BC6D1B30086FF8F /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2228BE2BC6D1B30086FF8F /* ReminderViewController.swift */; };
 		4E2228C22BC6D43B0086FF8F /* ReminderViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2228C12BC6D43B0086FF8F /* ReminderViewController+Row.swift */; };
+		4E412C5E2BEA1DF200FB56F5 /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E412C5D2BEA1DF200FB56F5 /* ReminderListStyle.swift */; };
 		4E4D31202BE54A4400A52ED0 /* ReminderViewController+CellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D311F2BE54A4400A52ED0 /* ReminderViewController+CellConfiguration.swift */; };
 		4E4D31232BE54D4000A52ED0 /* UIView+PinnedSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D31222BE54D4000A52ED0 /* UIView+PinnedSubview.swift */; };
 		4E4D31252BE54FF200A52ED0 /* TextFieldContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D31242BE54FF200A52ED0 /* TextFieldContentView.swift */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		4E2228BE2BC6D1B30086FF8F /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 		4E2228C12BC6D43B0086FF8F /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
+		4E412C5D2BEA1DF200FB56F5 /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
 		4E4D311F2BE54A4400A52ED0 /* ReminderViewController+CellConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+CellConfiguration.swift"; sourceTree = "<group>"; };
 		4E4D31222BE54D4000A52ED0 /* UIView+PinnedSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+PinnedSubview.swift"; sourceTree = "<group>"; };
 		4E4D31242BE54FF200A52ED0 /* TextFieldContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldContentView.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			children = (
 				4E9D3FA22BC4678C00DAEF45 /* Date+Today.swift */,
 				AAD059C328ECC017004F4962 /* Reminder.swift */,
+				4E412C5D2BEA1DF200FB56F5 /* ReminderListStyle.swift */,
 				AAD059CA28ECD992004F4962 /* UIColor+Today.swift */,
 			);
 			path = Models;
@@ -221,6 +224,7 @@
 				AAD0598828EC8D10004F4962 /* AppDelegate.swift in Sources */,
 				4E5AF2072BC577CC00F21899 /* ReminderListViewController+Actions.swift in Sources */,
 				4E2228BF2BC6D1B30086FF8F /* ReminderViewController.swift in Sources */,
+				4E412C5E2BEA1DF200FB56F5 /* ReminderListStyle.swift in Sources */,
 				4E4D31272BE5520900A52ED0 /* UIContentConfiguration+Stateless.swift in Sources */,
 				AAD059CB28ECD992004F4962 /* UIColor+Today.swift in Sources */,
 				AAD0598A28EC8D10004F4962 /* SceneDelegate.swift in Sources */,
